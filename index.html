@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Phone number formatter</title>
+</head>
+<script src="js/main.js"></script>
+
+<body>
+<p>Please input the phone number</p>
+
+<input id="inputPhoneNumber" type="text">
+<button type="button" onclick="processPhoneNumber()">Format</button>
+<p id="response"></p>
+<script>
+    function processPhoneNumber(){
+        var responseElement = document.getElementById("response");
+        var response =  formatPhoneNumber(document.getElementById("inputPhoneNumber").value);
+        responseElement.innerHTML = "Phone number " +  response;
+    }
+</script>
+
+</body>
+</html>
