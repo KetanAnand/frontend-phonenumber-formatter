@@ -3,6 +3,7 @@
  * Created by ketan on 04/02/2017.
  */
 
+// Formats given phone number into a format from aaa-bbb-ccc / aaa-bbb-cc / aaa-bb-cc
 function formatPhoneNumber(inputPhoneNumber) {
     var response, strippedPhoneNumber,formattedPhoneNumber ;
     try {
