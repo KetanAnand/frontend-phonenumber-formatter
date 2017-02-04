@@ -1,5 +1,8 @@
 {
   "name" : "ketan-phonenumber-formatter",
-  "version" : "1.0.0",
-  "description": "A JS application to format given phone number"
+  "version" : "1.0.1",
+  "description": "A JS application to format given phone number",
+  "scripts" : {
+     "start" : "node js/main.js"
+  }
 }
